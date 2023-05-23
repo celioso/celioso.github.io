@@ -1,2 +1,1 @@
-# Page the cv
-#web site
+# My cv
