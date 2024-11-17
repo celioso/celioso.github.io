@@ -1,0 +1,91 @@
+body {
+    font-family: "Geist Mono", monospace;
+    background-color: #001845;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0353a4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #11cb23;
+}
+
+.language-switch img {
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #33415c;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0353a4;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+/* skill */
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.level {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.level.advanced {
+    background-color: #d6bc95;
+}
+
+.level.intermediate {
+    background-color: #15ba96;
+}
+
+.level.beginner {
+    background-color: #33415c;
+}
